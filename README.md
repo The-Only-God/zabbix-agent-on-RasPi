@@ -5,7 +5,7 @@ I assume you already installed zabbix-agent
 
 Fetch script from GitHub:
 ```
-wget https://raw.githubusercontent.com/bobbolous/zabbix-agent-on-RasPi/master/raspberrypi.sh
+wget https://raw.githubusercontent.com/The-Only-God/zabbix-agent-on-RasPi/master/raspberrypi.sh
 ```
 
 Create script location:
@@ -36,7 +36,7 @@ $ /etc/zabbix/scripts/raspberrypi.sh temperature
 
 Add script to zabbix configuration file:
 ```
-sudo nano /etc/zabbix/zabbix_agentd.conf
+sudo nano /etc/zabbix/zabbix_agentd.conf.d/raspberrypi.conf
 ```
 
 Adding the following line:
